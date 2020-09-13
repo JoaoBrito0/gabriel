@@ -2,10 +2,6 @@
 
 @include('includes.header')
 
-  <!--================Home Banner Area =================-->
-    @yield('banner')
-  <!--================End Home Banner Area =================-->
-
   <!-- Start feature Area -->
     @yield('feature')
   <!-- End feature Area -->
