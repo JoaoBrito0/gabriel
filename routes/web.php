@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/home', function()
 {
-   return View::make('layouts.default');
+   return View::make('pages.home');
 });
 
 Route::get('/about', function()
