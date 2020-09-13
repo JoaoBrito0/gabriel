@@ -52,7 +52,7 @@
                 <div class="row w-100 mr-0">
                   <div class="col-lg-7 pr-0">
                     <ul class="nav navbar-nav center_nav pull-right">
-                      <li class="nav-item active">
+                      <li class="nav-item @yield('nav-home')">
                         <a class="nav-link" href="index.html">Home</a>
                       </li>
                       <li class="nav-item submenu dropdown">
@@ -97,7 +97,7 @@
                           </li>
                         </ul>
                       </li>
-                      <li class="nav-item">
+                      <li class="nav-item @yield('nav-contacts')">
                         <a class="nav-link" href="contact.html">Contact</a>
                       </li>
                     </ul>

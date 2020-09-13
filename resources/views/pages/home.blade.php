@@ -2,6 +2,8 @@
 
 @section('title','Home')
 
+@section('nav-home','active')
+
 @section('content')
     <!--================Home Banner Area =================-->
     <section class="home_banner_area mb-40">
@@ -455,7 +457,7 @@
                 </div>
             </div>
             </div>
-            
+
             <div class="col-lg-3 col-md-6">
             <div class="single-product">
                 <div class="product-img">
@@ -609,7 +611,7 @@
                 </div>
             </div>
             </div>
-            
+
             <div class="col-lg-4 col-md-6">
             <div class="single-blog">
                 <div class="thumb">
