@@ -1,23 +1,26 @@
 @extends('layouts.default')
 
-@section('banner')
-    <section class="home_banner_area mb-40">
-            <div class="banner_inner d-flex align-items-center">
-            <div class="container">
-                <div class="banner_content row">
-                <div class="col-lg-12">
-                    <p class="sub text-uppercase">men Collection</p>
-                    <h3><span>Show</span> Your <br />Personal <span>Style</span></h3>
-                    <h4>Fowl saw dry which a above together place.</h4>
-                    <a class="main_btn mt-40" href="#">View Collection</a>
-                </div>
-                </div>
-            </div>
-            </div>
-        </section>
-@stop
+@section('title','Home')
 
-@section('feature')
+@section('content')
+    <!--================Home Banner Area =================-->
+    <section class="home_banner_area mb-40">
+        <div class="banner_inner d-flex align-items-center">
+        <div class="container">
+            <div class="banner_content row">
+            <div class="col-lg-12">
+                <p class="sub text-uppercase">men Collection</p>
+                <h3><span>Show</span> Your <br />Personal <span>Style</span></h3>
+                <h4>Fowl saw dry which a above together place.</h4>
+                <a class="main_btn mt-40" href="#">View Collection</a>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--================End Home Banner Area =================-->
+
+    <!-- Start feature Area -->
     <section class="feature-area section_gap_bottom_custom">
         <div class="container">
         <div class="row">
@@ -63,9 +66,9 @@
         </div>
         </div>
     </section>
-@stop
+    <!-- End feature Area -->
 
-@section('featured-products')
+    <!--================ Feature Product Area =================-->
     <section class="feature_product_area section_gap_bottom_custom">
         <div class="container">
         <div class="row justify-content-center">
@@ -164,26 +167,26 @@
         </div>
         </div>
     </section>
-@stop
+    <!--================ End Feature Product Area =================-->
 
-@section('offers')
+    <!--================ Offer Area =================-->
     <section class="offer_area">
-            <div class="container">
-            <div class="row justify-content-center">
-                <div class="offset-lg-4 col-lg-6 text-center">
-                <div class="offer_content">
-                    <h3 class="text-uppercase mb-40">all men’s collection</h3>
-                    <h2 class="text-uppercase">50% off</h2>
-                    <a href="#" class="main_btn mb-20 mt-5">Discover Now</a>
-                    <p>Limited Time Offer</p>
-                </div>
-                </div>
+        <div class="container">
+        <div class="row justify-content-center">
+            <div class="offset-lg-4 col-lg-6 text-center">
+            <div class="offer_content">
+                <h3 class="text-uppercase mb-40">all men’s collection</h3>
+                <h2 class="text-uppercase">50% off</h2>
+                <a href="#" class="main_btn mb-20 mt-5">Discover Now</a>
+                <p>Limited Time Offer</p>
             </div>
             </div>
-        </section> 
-@stop
+        </div>
+        </div>
+    </section>
+    <!--================ End Offer Area =================-->
 
-@section('new-products')
+    <!--================ New Product Area =================-->
     <section class="new_product_area section_gap_top section_gap_bottom_custom">
         <div class="container">
         <div class="row justify-content-center">
@@ -326,9 +329,9 @@
         </div>
         </div>
     </section>
-@stop
+    <!--================ End New Product Area =================-->
 
-@section('inspired-products')
+    <!--================ Inspired Product Area =================-->
     <section class="inspired_product_area section_gap_bottom_custom">
         <div class="container">
         <div class="row justify-content-center">
@@ -567,9 +570,9 @@
         </div>
         </div>
     </section>
-@stop
+    <!--================ End Inspired Product Area =================-->
 
-@section('blog')
+    <!--================ Start Blog Area =================-->
     <section class="blog-area section-gap">
         <div class="container">
         <div class="row justify-content-center">
