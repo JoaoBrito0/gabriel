@@ -2,27 +2,18 @@
 
 @include('includes.header')
 
-  <!-- Start feature Area -->
-    @yield('feature')
-  <!-- End feature Area -->
+  @yield('banner')
 
-  <!--================ Feature Product Area =================-->
-    @yield('featured-products')
- <!--================ End Feature Product Area =================-->
+  @yield('feature')
 
- <!--================ Offer Area =================-->
-    @yield('offers')
-  <!--================ End Offer Area =================-->
+  @yield('featured-products')
+
+  @yield('offers')
     
-  <!--================ New Product Area =================-->
-    @yield('new-products')
-  <!--================ End New Product Area =================-->
+   @yield('new-products')
 
-  <!--================ Inspired Product Area =================-->
-    @yield('inspired-products')
-  <!--================ End Inspired Product Area =================-->
+  @yield('inspired-products')
 
-  <!--================ Start Blog Area =================-->
-    @yield('blog')
+  @yield('blog')
 
-    @include('includes.footer')
+  @include('includes.footer')
