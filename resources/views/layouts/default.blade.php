@@ -10,7 +10,7 @@
 
   @yield('offers')
     
-   @yield('new-products')
+  @yield('new-products')
 
   @yield('inspired-products')
 
