@@ -15,22 +15,27 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/home', function()
 {
-   return View::make('pages.home');
+   return view('pages.home');
 });
 
 Route::get('/about', function()
 {
-   return View::make('pages.about');
+   return view('pages.about');
 });
 
 Route::get('/products', function()
 {
-   return View::make('pages.products');
+   return view('pages.products');
 });
 
 Route::get('/contacts', function()
 {
-   return View::make('pages.contacts');
+   return view('pages.contacts');
+});
+
+Route::get('/detail', function()
+{
+   return view('pages.detail');
 });
 
 
