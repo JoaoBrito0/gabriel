@@ -53,7 +53,7 @@
                   <div class="col-lg-7 pr-0">
                     <ul class="nav navbar-nav center_nav pull-right">
                       <li class="nav-item @yield('nav-home')">
-                        <a class="nav-link" href="/">Home</a>
+                        <a class="nav-link" href="/">Página Inicial</a>
                       </li>
                       <li class="nav-item @yield('nav-about')">
                         <a class="nav-link" href="/about">Sobre Nós</a>
