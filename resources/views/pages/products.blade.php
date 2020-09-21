@@ -31,7 +31,7 @@
                     <div class="product-img">
                         <img
                         class="card-img"
-                        src="img/product/inspired-product/i1.jpg"
+                        src="img/product/inspired-product/parafuso.jpg"
                         alt=""
                         />
                     </div>
@@ -49,7 +49,7 @@
                     <div class="product-img">
                         <img
                         class="card-img"
-                        src="img/product/inspired-product/i1.jpg"
+                        src="img/product/inspired-product/parafuso.jpg"
                         alt=""
                         />
                     </div>
@@ -67,7 +67,7 @@
                     <div class="product-img">
                         <img
                         class="card-img"
-                        src="img/product/inspired-product/i1.jpg"
+                        src="img/product/inspired-product/parafuso.jpg"
                         alt=""
                         />
                     </div>
@@ -85,7 +85,7 @@
                     <div class="product-img">
                         <img
                         class="card-img"
-                        src="img/product/inspired-product/i1.jpg"
+                        src="img/product/inspired-product/parafuso.jpg"
                         alt=""
                         />
                     </div>
@@ -103,7 +103,7 @@
                     <div class="product-img">
                         <img
                         class="card-img"
-                        src="img/product/inspired-product/i1.jpg"
+                        src="img/product/inspired-product/parafuso.jpg"
                         alt=""
                         />
                     </div>
@@ -121,7 +121,7 @@
                     <div class="product-img">
                         <img
                         class="card-img"
-                        src="img/product/inspired-product/i1.jpg"
+                        src="img/product/inspired-product/parafuso.jpg"
                         alt=""
                         />
                     </div>
@@ -139,7 +139,7 @@
                     <div class="product-img">
                         <img
                         class="card-img"
-                        src="img/product/inspired-product/i1.jpg"
+                        src="img/product/inspired-product/parafuso.jpg"
                         alt=""
                         />
                     </div>
