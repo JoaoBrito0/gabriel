@@ -62,8 +62,8 @@
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                           aria-expanded="false">Produtos</a>
                         <ul class="dropdown-menu">
-                          <li class="nav-item">
-                            <a class="nav-link" href="/products">parafusos</a>
+                          <li class="nav-item ">
+                            <a class="nav-link " href="/products">Parafusaria</a>
                         </ul>
                       </li>
                       <li class="nav-item submenu dropdown">
