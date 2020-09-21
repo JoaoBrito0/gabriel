@@ -2,6 +2,8 @@
 
 @section('title','About')
 
+@section('nav-about','active')
+
 @section('content')
     <section class="sample-text-area">
         <div class="container">

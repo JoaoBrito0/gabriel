@@ -55,34 +55,15 @@
                       <li class="nav-item @yield('nav-home')">
                         <a class="nav-link" href="/">Home</a>
                       </li>
-                      <li class="nav-item submenu dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                          aria-expanded="false">Shop</a>
-                        <ul class="dropdown-menu">
-                          <li class="nav-item">
-                            <a class="nav-link" href="category.html">Shop Category</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="single-product.html">Product Details</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="checkout.html">Product Checkout</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="cart.html">Shopping Cart</a>
-                          </li>
-                        </ul>
+                      <li class="nav-item @yield('nav-about')">
+                        <a class="nav-link" href="/about">Sobre Nós</a>
                       </li>
                       <li class="nav-item submenu dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                          aria-expanded="false">Blog</a>
+                          aria-expanded="false">Produtos</a>
                         <ul class="dropdown-menu">
                           <li class="nav-item">
-                            <a class="nav-link" href="blog.html">Blog</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="single-blog.html">Blog Details</a>
-                          </li>
+                            <a class="nav-link" href="/products">parafusos</a>
                         </ul>
                       </li>
                       <li class="nav-item submenu dropdown">
